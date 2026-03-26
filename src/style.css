@@ -78,6 +78,7 @@ nav button:hover {
 
 .hero-content img {
     filter: invert();
+    height: 400px;
 }
 
 .container {
@@ -109,9 +110,9 @@ nav button:hover {
 }
 
 .card .item-name {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
-.card .item-description {
-    font-size: 0.8em;
+.about-content {
+    width: 60%;
 }

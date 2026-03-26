@@ -1,6 +1,7 @@
 import './style.css'
 import { homePage } from './landingPage.js';
 import { menuPage } from './menuPage.js';
+import { aboutPage } from './aboutPage.js';
 
 const contentDiv = document.querySelector('#content');
 const homeBtn = document.querySelector('#home-btn');
@@ -22,6 +23,10 @@ homeBtn.addEventListener("click", function() {
 
 menuBtn.addEventListener("click", function() {
     renderContent(menuPage);
+})
+
+aboutBtn.addEventListener("click", function() {
+    renderContent(aboutPage);
 })
 
 

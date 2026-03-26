@@ -1,3 +1,5 @@
+import logo from './logo.png'
+
 //create divs
 const homePage = document.createElement('div');
     homePage.classList.add('hero');
@@ -7,8 +9,8 @@ const heroContentDiv = document.createElement('div');
 
 //content elements
 const heroImg = document.createElement('img');
-    heroImg.src = 'logo.png';
-    heroImg.width = '300px';
+    heroImg.src = logo;
+    // heroImg.width = "100px"
 
 const logoTextBig = document.createElement('h1');
     logoTextBig.textContent = "The Corner."
